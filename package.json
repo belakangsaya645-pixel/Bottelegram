@@ -1,0 +1,25 @@
+{
+  "name": "offc-panel-wa",
+  "version": "1.0.0",
+  "description": "OFFC Panel WA - Bot WhatsApp untuk pembuatan panel otomatis (Pterodactyl)",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
+    "axios": "^1.4.0",
+    "better-sqlite3": "^8.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
